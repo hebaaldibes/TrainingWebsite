@@ -1,0 +1,524 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #fff;
+}
+header{
+	position: fixed;
+	z-index: 2;
+}
+#head1{
+	background: #111240;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	z-index: 1;
+}
+#head1 h6{
+	color: #fff;
+	line-height: 50px;
+	padding-left: 10px;
+	font-size: 14px;
+}
+.head11{
+	width: 50%;
+	height: 50px;
+	background: #47AB26;
+	margin-top: 10px;
+}
+#head2{
+	width: 100%;
+	height:80px;
+	position: fixed;
+	top: 50px;
+	left: 15px;
+	background: #fff;
+}
+#logo h1{
+font-weight: bolder;
+padding: 20px;
+font-size: 30px;
+color: #47AB26;
+}
+.glyphicon-education{
+	font-size: 40px;
+}
+#head2 .nav{
+	margin-left: 50px;
+}
+.nav-item>a{
+	color: #47AB26;
+	font-size: 18px;
+    margin-top: 20px;
+}
+.nav-item>a:hover{
+	border: #47AB26 1px solid;
+}
+/*end header*/
+#cover{
+	height: 520px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 150px;
+	font-size: 21px;
+}
+#opacity-black{
+	height: 520px;
+	padding-top: 150px;
+	background: #000;
+	opacity: 0.5;
+}
+#zindex-div{
+	z-index: 1;
+	position: relative;
+	top: -350px;
+    color: #fff;
+}
+#zindex-div h2{
+	font-size: 40px;
+}
+#zindex-div p{
+	font-size: 20px;
+}
+#search{
+	height: 40px;
+	margin: 30px 430px;
+	width: 500px;
+	border:  #47AB26 1px solid;
+}
+#search_course{
+	height: 40px;
+	width:90%;
+	font-size: 16px;
+	float: left;
+	color: #000;
+}
+.gsearch{
+	height: 38px;
+	width: 48px;
+	font-size: 22px;
+	background: #47AB26;
+	float: right;
+}
+#info{
+	width: 80%;
+	margin: 50px 150px;
+}
+.blw{
+	border-right: 2px #fff solid;
+}
+#categories,#popularPrograms,#about,#advantage,#ourTeam,#reviews,footer,.all-courses{
+	width: 98%;
+	height: auto;
+	position: relative;
+	top: 150px;
+    left: 12px;
+    padding: 50px;
+}
+.subheader{
+	font-size: 35px;
+	color: #111240;
+}
+#categories .col-md-3, #popularPrograms .col-md-3{
+	margin: 7px 0px;
+}
+.top{
+	width: 100%;
+	position: relative;
+	left: 10px;
+}
+#categories figure{
+	width: 280px;
+	height: 150px;
+	border-radius: 15px;
+}
+#categories figure img{
+	width: 280px;
+	height: 150px;
+	border-radius: 15px;
+}
+#categories .op{
+	z-index: 1;
+	position: relative;
+	bottom: 150px;
+	opacity: 0.7;
+	height: 150px;
+	width: 280px;
+	border-radius: 15px;
+}
+#categories h3{
+	z-index: 2;
+	position: relative;
+	bottom: 250px;
+	font-size: 30px;
+	color: #fff;
+	font-weight: bold;
+}
+#categories a:hover, #popularPrograms a:hover, .all-courses a:hover{
+	text-decoration: none;
+}
+#categories figure:hover{
+    box-shadow: -10px 10px 20px #DCDCDE;
+	}
+#categories #p-color{
+	background: #F76ACB;
+}
+#categories #o-color{
+	background: #FFAE17;
+}
+#categories #b-color{
+	background: #001CB8;
+}
+#categories #g-color{
+	background: #47AB26;
+}
+#categories #r-color{
+	background: #FF0D0D;
+}
+#categories #y-color{
+	background: #F0F000;
+}
+#categories #lb-color{
+	background: #11DDF7;
+}
+#categories #pur-color{
+	background: #B802CC;
+}
+.but-eac{
+	background-color: #47AB26;
+	font-size: 20px;
+	margin: 20px 450px;
+	width: 300px;
+	height: 50px;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 5px 5px 5px #DCDCDE;
+}
+.but-eac:hover{
+	background-color: #111240;
+}
+#categories .but-eac a:hover{
+	text-decoration: none;
+}
+/*end catgories section*/
+
+#popularPrograms h2,#advantage h2,#ourTeam h2,#reviews h2,.all-courses h2{
+	margin-bottom: 50px;
+}
+#popularPrograms .card, #advantage .card, .all-courses .card{
+	width: 280px;
+    margin: 10px 0px;
+	padding: 10px;
+	background-color: #fff;
+	box-shadow: 5px 5px 5px #DCDCDE;
+}
+#popularPrograms .card:hover, .all-courses .card:hover{
+	box-shadow: 15px 15px 25px #DCDCDE;
+}
+#popularPrograms .card img, .all-courses .card img{
+	width: 260px;
+	height: 200px;
+}
+#popularPrograms a, .all-courses s{
+	color: #111240;
+}
+/* end popular program section*/
+#about{
+	background-color: #DCDCDE;
+	left: 7px;
+	width: 99%;
+}
+#about .glyphicon-education{
+	color: #47AB26;
+	font-size: 400px;
+}
+#about p{
+	width: 70%;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 60px;
+	color: #111240;
+}
+/*end about section*/
+
+#advantage .card{
+	height: 330px;
+	width: 99%;
+	margin-top: 20px;
+	color: #111240;
+}
+#advantage .card .icon{
+	margin: 30px;
+}
+#advantage .card .glyphicon{
+	font-size: 50px;
+	padding: 20px;
+	color: #47AB26;
+	background-color: #DCDCDE;
+	border-radius: 100%;
+}
+#advantage .card h3{
+	font-size: 25px;
+}
+#advantage .card p{
+	font-size: 15px;
+}
+
+/*end advantage section*/
+
+#ourTeam img{
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin-top: 50px;
+	border: 2px #47AB26 solid; 
+}
+.name{
+	margin: 15px;
+    color: #47AB26;
+    font-size:22px;
+    font-weight: bold;
+}
+.postion{
+	font-size:18px;
+}
+/*end our team section*/
+
+#reviews .slideshow{
+padding-top: 10px;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+.mySlides{
+position: absolute;
+top: 0px;
+
+}
+#reviews img{
+width: 120px;
+height: 120px;
+border-radius: 100%;
+position: absolute;
+top: 0px;
+right: 48%;
+}
+#reviews h4{
+	font-size: 22px;
+	font-weight: bold;
+	position: absolute;
+	top: 130px;
+	right: 48%;
+	color: #47AB26;
+}
+#reviews .review{
+	font-size: 16px;
+	font-weight: bold;
+	width: 60%;
+	margin: 180px 220px;
+
+}
+.slider {
+	position: relative;
+	width: 100%;
+	height: 500px;
+	overflow: hidden;
+}
+	
+.slides {
+  height: 100%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+
+   -webkit-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -moz-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -ms-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   -o-transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000); 
+   transition: all 500ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+}
+	
+.slide {
+  height: 100%;
+  float: left;
+  clear: none;
+}
+.slide figure {
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+.slider-arrow {
+  position: absolute;
+  display: block;
+  margin-bottom: -20px;
+  padding: 10px;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 3.0em;
+  color: #47AB26;
+  border: 1px solid #47AB26;
+  border-radius: 8px;
+  -webkit-transition: all 0.2s linear;
+  -moz-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+.slider-arrow:hover {
+  background: #47AB26;
+  color: #fff;
+}
+.slider-arrow--right { bottom: 50%; right: 30px; }
+.slider-arrow--left { bottom: 50%; left: 30px; }
+
+
+.slider-nav {
+  position: absolute;
+  bottom: 110px;
+}
+
+.slider-nav__item {
+  width: 12px;
+  height: 12px;
+  float: left;
+  clear: none;
+  display: block;
+  margin: 0 5px;
+  background: #47AB26;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+}
+.slider-nav__item:hover { background: #bababa; }
+.slider-nav__item--current, .slider-nav__item--current:hover { background: #999; }
+
+/*end reviews section*/
+.open-button {
+  background-color: #47AB26;
+  border-radius: 50px;
+  color: white;
+  padding: 5px;
+  border: none;
+  font-size: 22px;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 250px;
+  z-index: 2;
+}
+.contact-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #DCDCDE;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+.form-container textarea ,.form-container input{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 12px 0;
+  border: none;
+  background: #f1f1f1;
+  height: 100px;
+}
+.form-container input{
+	height: 20px;
+}
+.form-container textarea:focus,.form-container input:focus {
+  background-color: #DCDCDE;
+  outline: none;
+}
+.form-container .btn {
+  background-color: #47AB26;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+.btn{
+	border-radius: 50px;
+
+}
+.form-container .cancel {
+  background-color: red;
+}
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+/*end contact us section*/
+footer{
+	background-color: #111240;
+	color: #fff;
+	height: auto;
+	
+	width: 100%;
+	position: relative;
+	bottom: 0px;
+	left: 0px;
+	
+}
+ #social{
+ 	height: 60px;
+ 	float: left;
+ 	position: relative;
+ 	bottom: 50px;
+ }
+ #social p{
+ 	float: left;
+ 	font-size: 18px;
+ 	margin-left: 20px;
+ 	line-height: 30px;
+ }
+ #social_icon{
+ 	float: right;
+ 	display: grid;
+ 	grid-template-columns: repeat(8,1fr);
+ 	grid-column-gap: 10px;
+ 	margin-right: 20px;
+ 
+ }
+ #social_icon a{
+ 	color: #fff;
+    border: 3px solid #fff;
+ 	border-radius: 5px;
+ 	padding: 2px;
+ 	font-size: 20px;
+ 	text-align: center;
+ }
+ #social_icon a:hover{
+ 	color: #47AB26;
+ 	border-color:#47AB26;
+ }
+footer a{
+	color: #fff;
+	padding: 5px;
+}
+footer a:hover{
+	text-decoration: none;
+	color: #47AB26;
+}
+ul{
+	list-style-type: none;
+}
+footer ul li, footer p{
+	margin-top: 10px;
+	text-align: left;
+}
+.all-courses{
+	height: auto;
+	margin-top: 20px;
+}
